@@ -1,0 +1,17 @@
+# ignore files that ends with .a
+*.a
+
+# do not ignore xyz.a as it is ignored above
+!xyz.a
+
+# ignore Todo.list in the current directory and not any sub directory
+/Todo.list
+
+# ignore a directory completely
+newDirectory/
+
+# ignore docs/test.txt but not docs/important/test.txt
+docs/*.txt 
+
+# ignore all .asd files in directories or subdirectories of document
+document/**/*.asd
